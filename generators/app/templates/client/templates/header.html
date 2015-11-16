@@ -14,9 +14,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="nav-main-wrapper">
         <ul class="nav navbar-nav nav-main">
-          <li class="active"><a href="/fonts">Fonts</a></li>
-          <li><a href="/colors">Colors</a></li>
-          <li><a href="/icons">Icons</a></li>
+          <li ng-class="vm.getClass('/fonts')"><a href="/fonts">Fonts</a></li>
+          <li ng-class="vm.getClass('/colors')"><a href="/colors">Colors</a></li>
+          <li ng-class="vm.getClass('/icons')"><a href="/icons">Icons</a></li>
         </ul>
       </div>
     </div>
