@@ -1,0 +1,20 @@
+{
+  "name": "generator-irvui",
+  "version": "1.0.0",
+  "description": "Yeoman Generator for IRVUI",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.1.0"
+  }
+}
