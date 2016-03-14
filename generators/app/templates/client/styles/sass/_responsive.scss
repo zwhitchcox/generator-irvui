@@ -41,7 +41,8 @@
             padding: 16px 30px;
             font-size: 16px;
             color: $black;
-            font-family:"NHG-W01-75-TxtBd";
+            font-family: Thingspace;
+						font-weight: 700;
             &:hover {
               color: $red;
               background-color: $white;
@@ -113,7 +114,8 @@
               padding: 0px;
               font-size: 24px;
               color: $black;
-              font-family:"NHG-W01-75-TxtBd";
+              font-family: Thingspace;
+							font-weight: 700;
               &:hover {
                 color: $red;
                 background-color: transparent;
